@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.open{
+    margin-left: -300px;
+    transform: translateX(0%);
+    transition: 1s all ease-in;
+}
+.close{
+    margin-left: 0px;
+  
+}
+.youtube{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+}
+.up-bar{
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    position: relative;
+}
+.left-nav{
+    width: 200px;
+    height: 84vh;
+    background-color: #000000;
+}
+.up-bar .logo-nav{
+    margin-top: 30px;
+    position: absolute;
+}
+.up-bar .logo-nav #youtube2{
+    color: rgb(215, 6, 6);
+}
+.up-bar .logo-nav #icon{
+    color: #ffffff;
+}
+.up-bar .logo-nav .name{
+   font-weight: 600;
+   font-size: 35px;
+   color: #ffffff;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   cursor: pointer;
+}
+.up-bar .logo-nav .name sup{
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.up-bar .logo-nav i{
+    font-size: 35px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.mein-nav{
+    width: 300px;
+    height: 100vh;
+    background-color: #000000;
+    position: absolute;
+    margin-top: 0px;
+    z-index: 1;
+    overflow: auto;
+    scroll-behavior: smooth;
+    display: none;
+    transform: translate(-50%,);
+    transition: 1s all ease-in-out;
+    
+}
+
+.mein-nav .logo-nav{
+    margin-top: 30px;
+    position: absolute;
+}
+.mein-nav .logo-nav #youtube1{
+    color: rgb(215, 6, 6);
+}
+.mein-nav .logo-nav .name{
+   font-weight: 600;
+   font-size: 35px;
+   color: #ffffff;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   cursor: pointer;
+}
+.mein-nav .logo-nav .name sup{
+    color: #b5b2b2;
+    font-size: 20px;
+    cursor: pointer;
+}
+.mein-nav .logo-nav i{
+    font-size: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.mein-nav .logo-nav .bar{
+    color: #ffffff;
+    font-size: 30px;
+}
+.mein-nav .other{
+    width: 90%;
+    margin-top: 100px;
+    position: absolute;
+    margin-right: 30px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mein-nav .other div{
+    margin-top: 2px;
+    margin-left: 20px;
+   
+}
+.mein-nav .other .home  i{
+    margin-right: 20px;
+}
+.mein-nav .other .short  i{
+    margin-right: 20px;
+}
+.mein-nav .other .subcription  i{
+    margin-right: 20px;
+}
+.mein-nav .other .home{
+    width: 95%;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.mein-nav .other .short{
+    width: 95%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.mein-nav .other .home:hover{
+    background-color: #9a9696;
+}
+.mein-nav .other .short:hover{
+    background-color: #9a9696;
+}
+.mein-nav .other .subcription:hover{
+    background-color: #9a9696;
+}
+.mein-nav .other .subcription{
+    width: 95%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.mein-nav .other .short span{
+    margin-left: 20px;
+    margin-top: 15px;
+    position: absolute;
+}
+.mein-nav .other .subcription span{
+    margin-left: 20px;
+    margin-top: 15px;
+    position: absolute;
+}
+.mein-nav .other .home span{
+    margin-left: 20px;
+    margin-top: 15px;
+    position: absolute;
+}
+#row1{
+    width: 90%;
+    background-color: #ffffff;
+    margin-top: 280px;
+}
+.mein-nav .info-other{
+    width: 90%;
+    color: #ffffff;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mein-nav .info-other div{
+    margin-top: 2px;
+    margin-left: 20px;
+}
+.mein-nav .info-other .home  i{
+    margin-right: 20px;
+}
+.mein-nav .info-other .home{
+    width: 95%;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.mein-nav .info-other .home:hover{
+    background-color: #9a9696;
+}
+.mein-nav .info-other .home span{
+    margin-left: 20px;
+    margin-top: 15px;
+    position: absolute;
+}
+/* Subscription div styleing  */
+.mein-nav .subscription-div{
+    width: 90%;
+    color: #ffffff;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mein-nav .subscription-div{
+    width: 90%;
+    color: #ffffff;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mein-nav .subscription-div div{
+    margin-top: 2px;
+    margin-left: 20px;
+}
+.mein-nav .subscription-div .home  i{
+    margin-right: 20px;
+}
+.mein-nav .subscription-div .home{
+    width: 95%;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.mein-nav .subscription-div .home:hover{
+    background-color: #9a9696;
+}
+.mein-nav .subscription-div .home span{
+    margin-left: 20px;
+    margin-top: 15px;
+    position: absolute;
+}
+/* Explore styleing */
+.mein-nav .explore{
+    width: 90%;
+    color: #ffffff;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mein-nav .explore{
+    width: 90%;
+    color: #ffffff;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mein-nav .explore div{
+    margin-top: 2px;
+    margin-left: 20px;
+}
+.mein-nav .explore .home  i{
+    margin-right: 20px;
+}
+.mein-nav .explore .home{
+    width: 95%;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.mein-nav .explore .home:hover{
+    background-color: #9a9696;
+}
+.mein-nav .explore .home span{
+    margin-left: 20px;
+    margin-top: 15px;
+    position: absolute;
+}
+/* more apps style */
+.mein-nav .more-apps{
+    width: 90%;
+    color: #ffffff;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mein-nav .more-apps{
+    width: 90%;
+    color: #ffffff;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mein-nav .more-apps div{
+    margin-top: 2px;
+    margin-left: 20px;
+}
+.mein-nav .more-apps .home  i{
+    margin-right: 20px;
+}
+.mein-nav .more-apps .active{
+    width: 95%;
+    height: 50px;
+    border-radius: 10px;
+}
+.mein-nav .more-apps .home{
+    width: 95%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.mein-nav .more-apps .home:hover{
+    background-color: #9a9696;
+}
+.mein-nav .more-apps .home span{
+    margin-left: 20px;
+    margin-top: 15px;
+    position: absolute;
+}
+/* apps Control  */
+.mein-nav .more-apps{
+    width: 90%;
+    color: #ffffff;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mein-nav .apps-control{
+    width: 90%;
+    color: #ffffff;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mein-nav .apps-control div{
+    margin-top: 2px;
+    margin-left: 20px;
+}
+.mein-nav .apps-control .home  i{
+    margin-right: 20px;
+}
+.mein-nav .apps-control .home{
+    width: 95%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.mein-nav .apps-control .home:hover{
+    background-color: #9a9696;
+}
+.mein-nav .apps-control .home span{
+    margin-left: 20px;
+    margin-top: 15px;
+    position: absolute;
+}
+.mein-nav .footer{
+    width: 90%;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.mein-nav .footer a{
+    color: #878787;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mein-nav .footer p{
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+    
